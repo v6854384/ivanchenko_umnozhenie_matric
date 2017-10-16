@@ -10,7 +10,7 @@ int main() {
 	int a[n][m], b[m][k], c[n][k]; 
 	for (int i = 0; i < n; i++) { 
 		for (int j = 0; j < m; j++) { 
-			cin » a[i][j]; 
+			cin >> a[i][j]; 
 		} 
 	} 
 	cout << endl; 
