@@ -29,7 +29,7 @@ int main() {
 	for (int i = 0; i < n; i++) { 
 		for (int j = 0; j < k; j++) { 
 			for (int r = 0; r < m; r++) { 
-			c[i][j] = c[i][j] + a[i][r] * b[r][j]; 
+			c[i][j] = a[i][r] * b[r][j]; 
 
 		} 
 		cout << c[i][j] << " "; 
